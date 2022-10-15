@@ -108,8 +108,8 @@ def depthFirstSearch(problem):
 
 def breadthFirstSearch(problem):
 
-    # Curtis High - 9/27/2022    
-    
+    # Curtis High - 9/27/2022
+
     # create a queue of states to search, and a set of already reached (as opposed to visited) states
     root = problem.getStartState()
     stateQueue = Queue()
@@ -144,7 +144,7 @@ def breadthFirstSearch(problem):
 
 def uniformCostSearch(problem):
 
-    # Curtis High - 9/27/2022    
+    # Curtis High - 9/27/2022
     
     # create a priority queue of states to search (ordered by cost), and a set of visited states
     root = problem.getStartState()
@@ -192,7 +192,7 @@ def nullHeuristic(state, problem=None):
 
 def aStarSearch(problem, heuristic=nullHeuristic):
 
-    # Curtis High - 9/27/2022    
+    # Curtis High - 9/27/2022
     
     # create a priority queue of states to search (ordered by cost), and a set of visited states
     root = problem.getStartState()
